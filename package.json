@@ -1,0 +1,15 @@
+{
+  "name": "winston-zlf",
+  "description": "A zlf transport for winston",
+  "version": "0.0.1",
+  "author": "Duarte Madueño <duarte.madueno@gmail.com>",
+  "contributors": [
+      { "name" : "Duarte Madueño" }
+  ],
+  "keywords": ["logging", "winston", "zlf"],
+  "dependencies": {
+    "winston": "0.7.2"
+  },
+  "main": "./winston-zlf.js",
+  "engines": { "node": ">= 0.10.15" }
+}
