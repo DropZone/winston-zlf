@@ -1,16 +1,18 @@
-DO NOT CHANGE config - production and staging folders' names
+ZLF add-on for winston
+======================
 
-----------------------------------------------------------------------------//----------------------------------------------------------------------------
+config file for winston transport
 
--- Step-by-step for deployment
-Open powershell as administrator
-F:
-cd F:\AppAzureSee
--- production deployment
-& '.\Production Deployment.ps1'
--- staging deployment
-& '.\Staging Deployment.ps1'
-
-----------------------------------------------------------------------------//----------------------------------------------------------------------------
-
-If you want to change production or staging config files just go to F:\AppAzureSee\config - [environment]
+```javascript
+{
+	level: 'info',
+	host: '127.0.0.1',
+	port: 7897,
+	compressionMode: 'uncompressed',
+	facility: 'ProjectX.Development', //Default facility for log4j xml layout
+	realm: 'ProjectX',
+	subrealm: 'Development',
+	udpType: 'udp4', // udp4(IPv4) || udp6(IPv6)
+	maxBodyLength: 100,	//max body length per chunk
+}
+```
