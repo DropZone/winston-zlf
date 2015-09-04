@@ -1,7 +1,7 @@
 {
   "name": "winston-zlf",
   "description": "A zlf transport for winston",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Duarte Madueño <duarte.madueno@gmail.com>",
   "contributors": [
       { "name" : "Duarte Madueño" }

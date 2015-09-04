@@ -208,6 +208,6 @@ var _p = {
     return msg;
   },
   'trim': function(msg){
-    return msg.replace(/^\s+|\s+$/g, '');
+    return msg ? msg.replace(/^\s+|\s+$/g, '') : '';
   }
 };
